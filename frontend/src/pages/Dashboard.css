@@ -594,9 +594,10 @@
 
 .history-table-wrapper {
     width: 100%;
+    max-height: 292px;
 
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
 
     border: 1px solid #263754;
     border-radius: 10px;
@@ -630,6 +631,9 @@
 /* Table header */
 
 .history-table th {
+    position: sticky;
+    top: 0;
+
     background: #142039;
 
     color: #b8c3d6;
