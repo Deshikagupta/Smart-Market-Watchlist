@@ -1,0 +1,244 @@
+/* =========================================================
+   AUTH PAGE
+   ========================================================= */
+
+.auth-page {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #070d1a;
+
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   AUTH CARD
+   ========================================================= */
+
+.auth-card {
+    width: 100%;
+    max-width: 440px;
+
+    background: #0e1728;
+
+    border: 1px solid #24334d;
+    border-radius: 12px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.auth-header {
+    padding: 30px 32px 24px;
+
+    border-bottom: 1px solid #24334d;
+}
+
+.auth-header h1 {
+    margin: 0;
+
+    color: #f1f5f9;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 27px;
+    line-height: 1.2;
+}
+
+.auth-header p {
+    margin: 8px 0 0;
+
+    color: #94a3b8;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   CONTENT
+   ========================================================= */
+
+.auth-content {
+    padding: 32px;
+}
+
+.auth-content h2 {
+    margin: 0 0 24px;
+
+    color: #f1f5f9;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 25px;
+}
+
+
+/* =========================================================
+   FORM
+   ========================================================= */
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+
+/* =========================================================
+   INPUTS
+   ========================================================= */
+
+.auth-input {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 13px 15px;
+
+    background: #0a1221;
+
+    border: 1px solid #34445f;
+    border-radius: 6px;
+
+    color: #f1f5f9;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.auth-input::placeholder {
+    color: #64748b;
+}
+
+.auth-input:focus {
+    border-color: #3b82f6;
+
+    box-shadow:
+        0 0 0 2px rgba(59, 130, 246, 0.15);
+}
+
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.auth-button {
+    width: 100%;
+
+    padding: 13px 16px;
+
+    margin-top: 4px;
+
+    background: #2563eb;
+
+    border: 1px solid #2563eb;
+    border-radius: 6px;
+
+    color: #ffffff;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.auth-button:hover:not(:disabled) {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.auth-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.auth-error {
+    margin: 0 0 18px;
+
+    padding: 11px 13px;
+
+    background: rgba(127, 29, 29, 0.2);
+
+    border: 1px solid #7f1d1d;
+    border-radius: 6px;
+
+    color: #fca5a5;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.auth-footer {
+    margin: 24px 0 0;
+
+    text-align: center;
+
+    color: #94a3b8;
+
+    font-size: 14px;
+}
+
+.auth-footer a {
+    color: #60a5fa;
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.auth-footer a:hover {
+    color: #93c5fd;
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 520px) {
+
+    .auth-page {
+        padding: 20px;
+    }
+
+    .auth-header,
+    .auth-content {
+        padding: 24px;
+    }
+
+    .auth-header h1 {
+        font-size: 24px;
+    }
+}
