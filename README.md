@@ -20,6 +20,8 @@ Smart Market Watchlist addresses this by treating each market check as a checkpo
 
 ## Solution
 
+LIVE : https://smart-market-watchlist-snowy.vercel.app/
+
 Smart Market Watchlist provides a personalized market monitoring workflow:
 
 - Users create and manage their own watchlist.
@@ -35,6 +37,11 @@ Smart Market Watchlist provides a personalized market monitoring workflow:
 The goal is not to build another stock-price dashboard.
 
 The goal is to reduce the amount of manual monitoring required from the user.
+
+## ScreeShot
+<img width="2940" height="1648" alt="image" src="https://github.com/user-attachments/assets/a6a2057a-bcc2-4ec0-9c01-5a01b2348916" />
+Screenshot of the Dashboard of a particular user, after adding the stocks the changes are visible on each stock.
+
 
 ## Key Features
 
